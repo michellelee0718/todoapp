@@ -49,8 +49,19 @@ form button:hover {
 }
 
 .todo {
-  margin: 0.5rem;
   background: white;
+}
+
+.todoGym {
+  background: rgb(255, 183, 215);
+}
+
+.todoSchool {
+  background: rgb(144, 225, 255);
+}
+
+.todoSchool, .todoGym, .todo {
+  margin: 0.5rem;
   font-size: 1.5rem;
   color: black;
   display: flex;
@@ -58,10 +69,12 @@ form button:hover {
   align-items: center;
   transition: all 1s ease;
 }
+
+
 .filter-todo {
   padding: 1rem;
 }
-.todo li {
+.todo li, .todoSchool li, .todoGym li {
   flex: 1;
 }
 
